@@ -1,0 +1,152 @@
+body {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    background-color: #eee;
+    margin: auto 10%;
+}
+
+section, footer {
+    margin: auto 10%;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: #eee;
+}
+
+#header {
+    align-self: flex-start;
+    align-items: center;
+}
+
+nav{
+    align-self: flex-end;
+}
+
+#header-img {
+    width: 100%;
+    height: auto;
+}
+
+#img {
+    width: 300px;
+    
+}
+
+#newsletter {
+    text-align: center;
+}
+
+button {
+    background-color: #f1c40f;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #caac32;
+}
+
+input {
+    padding: 5px 20px 5px 5px;
+   
+}
+
+.feature {
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+p {
+    margin: 0;
+}
+
+#features {
+    margin-left: 10%;
+}
+
+#how_it_works {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+div.pricing-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px auto 0;
+    width: 100%;
+    
+}
+
+div.price {
+    border: 1px solid black;
+    margin: 0 10px;
+    width: 30%;
+    text-align: center;
+
+}
+
+h4 {
+    background-color: lightgrey;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.value {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #dddddd;
+    margin: 50px 20px 10px 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+#footerLinks {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-end ;
+}
+#copyright {
+    color:rgb(94, 92, 92);
+    text-align: right;
+    margin: -10px 25px 10px 0;
+
+}
+
+@media (max-width:830px) {
+    div.pricing-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    div.price {
+        margin-bottom: 10px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
